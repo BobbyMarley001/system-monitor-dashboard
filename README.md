@@ -1,25 +1,30 @@
-# 🖥️ System Monitor Dashboard
+# System Monitor Dashboard
 
-A lightweight web-based dashboard built with **Node.js**, **Express**, and **Bash scripts** to monitor system health metrics (CPU, Memory, Disk) in real-time.
+[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-5f5fff?style=for-the-badge&logo=render)](https://system-monitor-dashboard-ffzl.onrender.com)
 
-## 🚀 Features
-- 🔧 Real-time CPU, memory, and disk usage
-- 📊 Live dashboard UI (HTML/CSS/JS)
-- ⚠️ Custom alerting via shell scripts
-- 📦 Easy-to-run with Node.js backend
+A lightweight web-based system monitoring dashboard using Node.js and shell scripts.
 
+## Features
+- Real-time monitoring of CPU, Memory, and Disk usage
+- Live alerts for high CPU usage
+- Clean and responsive web UI
 
-## 🛠️ How to Run Locally
+## 🚀 How to Run Locally
+
 ```bash
-git clone https://github.com/YOUR_USERNAME/system-monitor-dashboard.git
+git clone https://github.com/BobbyMarley001/system-monitor-dashboard.git
 cd system-monitor-dashboard
 npm install
 chmod +x scripts/*.sh
 npm start
 
-Then open: http://localhost:3000
+Visit: http://localhost:3000
 
-## 🧪 Technologies
+🌐 Live Demo
+
+👉 View it Live
+
+🛠️ Technologies
 Node.js
 
 Express.js
