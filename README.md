@@ -45,5 +45,5 @@ Then open in your browser: [http://localhost:3000](http://localhost:3000)
 
 ## 📄 License
 
-Licensed under the [MIT License](LICENSE).
+Licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
