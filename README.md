@@ -1,13 +1,18 @@
-# System Monitor Dashboard
+# ⚙️ System Monitor Dashboard
 
 [![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-5f5fff?style=for-the-badge&logo=render)](https://system-monitor-dashboard-ffzl.onrender.com)
 
-A lightweight web-based system monitoring dashboard using Node.js and shell scripts.
+A lightweight web-based system monitoring dashboard using **Node.js** and **shell scripts**.
 
-## Features
-- Real-time monitoring of CPU, Memory, and Disk usage
-- Live alerts for high CPU usage
-- Clean and responsive web UI
+---
+
+## ✨ Features
+
+- 📊 Real-time monitoring of **CPU**, **Memory**, and **Disk** usage  
+- 🚨 Live alerts for high CPU usage  
+- 🧼 Clean and responsive web UI built with HTML/CSS  
+
+---
 
 ## 🚀 How to Run Locally
 
@@ -17,20 +22,28 @@ cd system-monitor-dashboard
 npm install
 chmod +x scripts/*.sh
 npm start
+```
 
-Visit: http://localhost:3000
+Then open in your browser: [http://localhost:3000](http://localhost:3000)
 
-🌐 Live Demo
+---
 
-👉 View it Live
+## 🌐 Live Demo
 
-🛠️ Technologies
-Node.js
+🔗 **[View it Live on Render](https://system-monitor-dashboard-ffzl.onrender.com)**
 
-Express.js
+---
 
-Bash
+## 🛠️ Technologies Used
 
-HTML/CSS
+- 🟩 Node.js  
+- 🚀 Express.js  
+- 🖥️ Bash  
+- 🎨 HTML & CSS  
 
+---
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
 
