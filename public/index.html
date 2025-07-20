@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>System Monitor Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>System Monitor Dashboard</h1>
+    <div id="metrics">
+      <h2>System Metrics</h2>
+      <pre id="output">Loading...</pre>
+    </div>
+    <div id="alerts">
+      <h2>Alerts</h2>
+      <pre id="alertOutput">Checking...</pre>
+    </div>
+    <p id="lastUpdated"></p>
+  </div>
+  <script>
+    async function fetchData() {
+      const metricsRes = await fetch('/metrics');
+      const alertRes = await fetch('/alerts');
+
+      const metrics = await metricsRes.text();
+      const alerts = await alertRes.text();
+
+      document.getElementById('output').textContent = metrics;
+      document.getElementById('alertOutput').textContent = alerts;
+
+      const now = new Date();
+      document.getElementById('lastUpdated').textContent = `Last updated: ${now.toLocaleString()}`;
+    }
+    setInterval(fetchData, 3000);
+    fetchData();
+  </script>
+</body>
+</html>
